@@ -1,0 +1,11 @@
+# Ignore everything
+**
+
+# Allow directories with Go code 
+!benchmark/*
+!FunctionEntry/*
+!FunctionHandler/*
+
+# Allow Go module files
+!go.mod
+!go.sum

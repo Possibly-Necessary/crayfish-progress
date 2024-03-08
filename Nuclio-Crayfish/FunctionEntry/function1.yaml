@@ -1,0 +1,16 @@
+apiVersion: "nuclio.io/v1"
+kind: "NuclioFunction"
+metadata:
+  namespace: nuclio
+spec:
+  runtime: golang
+  handler: entry-point:EntryHandler
+  triggers:
+    http:
+      kind: http
+      attributes:
+        ingresses:
+          myIngress:
+            host: entry-point.local
+            paths:
+            - /trigger 

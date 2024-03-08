@@ -1,0 +1,19 @@
+# Component yaml file for the input/output bindings
+# It tells Dapr how to connect to Redis' instance
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: pubsub #value is needed to post and subscribe to events
+ # namespace: default
+spec:
+  type: pubsub.redis
+  version: v1
+  metadata:
+    - name: redisHost
+      value: redis-master:6379
+    - name: redisPassword
+      value: "NPUC76ahsT" # secret as plain text (not recommended)
+    - name: consumerID
+      value: "myGroup"
+    - name: enableTLS
+      value: "false" # Or true if using TLS
