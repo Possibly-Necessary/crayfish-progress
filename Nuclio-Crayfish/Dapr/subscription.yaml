@@ -1,0 +1,12 @@
+# Setting up the triggerAggregate() function to subscribe to messages by this Dapr subscription component
+apiVersion: dapr.io/v2alpha1
+kind: Subscription
+metadata:
+  name: optimization-results-subscription
+spec:
+  topic: optimization_results
+  routes: 
+    default: /process # Set the route to where Dapr should send the event
+  pubsubname: pubsub # name earlier defined in the components yaml
+scopes: # Components that Dapr will interact with
+- sub # Subscriber function ID 

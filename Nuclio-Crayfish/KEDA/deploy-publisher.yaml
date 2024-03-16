@@ -1,0 +1,20 @@
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: nuclio-function-scaler
+  namespace: nuclio
+spec:
+  scaleTargetRef: # Target is the nuclio function - we want to scale it with respect to the queue's length
+    kind: Deployment 
+    name: nuclio-nuc-handler
+  pollingInterval: 1 
+  cooldownPeriod: 30 
+  minReplicaCount: 1  
+  maxReplicaCount: 10 # maximum replicas of nuclio 
+  triggers:
+  - type: rabbitmq
+    metadata:
+      queueName: subPopQueue # Name of your RabbitMQ queue
+      host: amqp://nuclio:crayfish@rabbitmq.default.svc.cluster.local:5672/ # RabbitMQ connection string
+      #queueLength: "2" # Target value for queue length. KEDA will scale the deployment based on this.
+      mode: QueueLength
