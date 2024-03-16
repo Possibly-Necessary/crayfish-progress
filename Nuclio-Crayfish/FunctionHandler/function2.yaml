@@ -8,11 +8,12 @@ spec:
   runtime: "golang"
   image: arthurmerlin/processor-nuc-handler:latest # image
   minReplicas: 1
-  maxReplicas: 1000
+  #maxReplicas: 5 -- replication will be handled through KEDA
   triggers:
     myRabbitMQTopic:
       kind: "rabbit-mq"
-      url: "amqp://nuclio:crayfish@rabbitmq.default.svc.cluster.local:5672"
+      url: "amqp://nuclio:crayfish@rabbitmq.default.svc.cluster.local:5672/"
       attributes:
+        exchangeName: ""
         queueName: subPopQueue
         maxWorkers: 1

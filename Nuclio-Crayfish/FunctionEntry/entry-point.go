@@ -12,10 +12,9 @@
 package main
 
 import (
-	"bytes"
-	"encoding/gob"
 	"encoding/json"
 	"fmt"
+	"log"
 	"math/rand"
 	benchmark "nuclio-entry/benchmark"
 
@@ -89,20 +88,19 @@ func initializePopulation(N, k, t int, fn string, ch *amqp.Channel, queueName st
 			F:             fn,
 		}
 
-		var buf bytes.Buffer
-		enc := gob.NewEncoder(&buf)
-		if err := enc.Encode(msg); err != nil {
-			errors.New("Failed to encode message..")
+		jsonData, err := json.Marshal(msg)
+		if err != nil {
+			log.Fatalf("Failed to encode message: %v", err)
 		}
 
-		err := ch.Publish(
+		err = ch.Publish(
 			"",        // Exchange (default)
 			queueName, // Routing key
 			false,     // Mandatory
 			false,     // Immediate
 			amqp.Publishing{
-				ContentType: "application/octet-stream",
-				Body:        buf.Bytes(),
+				ContentType: "application/json",
+				Body:        jsonData,
 			})
 		if err != nil {
 			errors.New("Failed to publish message..")
@@ -163,6 +161,6 @@ func EntryHandler(context *nuclio.Context, event nuclio.Event) (interface{}, err
 	return nuclio.Response{
 		StatusCode:  200,
 		ContentType: "application/json",
-		Body:        []byte("Population initialization and distribution completed"),
+		Body:        []byte("Population initialization and distribution completed\n"),
 	}, nil
 }

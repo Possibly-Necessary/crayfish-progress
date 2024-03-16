@@ -7,35 +7,11 @@
     	--registry docker.io/arthurmerlin
 */
 
-// Yaml file for this is called "function2.yaml"
-// Or in-line config. file:
-
-// @nuclio.configure
-//
-// apiVersion: "nuclio.io/v1"
-// kind: NuclioFunction
-// metadata:
-//   name: nuc-handler
-//   namespace: nuclio
-// spec:
-//   handler: nuc-handler:NuclioHandler
-//   runtime: Golang
-//   triggers:
-//     myRabbitMQTopic:
-//       kind: "rabbit-mq"
-//       url: "amqp://nuclio:crayfish@rabbitmq.default.svc.cluster.local:5672"
-//       attributes:
-//         queueName: "subPopQueue"
-//         maxWorkers: 1
-//     minReplicas: 1
-//     maxReplicas: 1000
-
 package main
 
 import (
-	"bytes"
-	"encoding/gob"
 	"encoding/json"
+	"log"
 	"math"
 	"math/rand"
 	benchmarks "nuclio-handler/benchmark"
@@ -264,16 +240,22 @@ func crayfish(T int, lb, ub []float64, f string, X [][]float64, F benchmarks.Fun
 // ________________________________________________________________
 func NuclioHandler(context *nuclio.Context, event nuclio.Event) (interface{}, error) {
 
+	// Check if the event is triggered by RabbitMQ
+	if event.GetTriggerInfo().GetClass() != "async" || event.GetTriggerInfo().GetKind() != "rabbitMq" {
+		// If not triggered by RabbitMQ, do nothing and return successfully
+		return nil, nil
+	}
+
 	// Initialize variable to get the data from the event (RabbitMQ)
 	var rabbitData Message
 
-	buf := bytes.NewBuffer(event.GetBody())
+	// For logging/troubleshooting
+	context.Logger.InfoWith("Raw message body", "data", string(event.GetBody()))
 
-	// GOB decoder
-	decoder := gob.NewDecoder(buf)
+	err := json.Unmarshal(event.GetBody(), &rabbitData)
 
-	if err := decoder.Decode(&rabbitData); err != nil {
-		context.Logger.ErrorWith("Failed to decode message", "error", err)
+	if err != nil {
+		log.Printf("Failed to decode message: %v", err)
 		return nil, err
 	}
 
@@ -293,7 +275,10 @@ func NuclioHandler(context *nuclio.Context, event nuclio.Event) (interface{}, er
 
 	// (Publisher) intialize Redis client
 	redisClient, err := initRedisClient() // Establish a new Redis client
-	context.Logger.Error("Failed to initialize a new Redis Client: %v\n", err)
+	if err != nil {
+		context.Logger.Error("Failed to initialize a new Redis Client: %v\n", err)
+		return nil, err
+	}
 
 	// Redis channel name
 	channel := "Optimization_Results"
@@ -302,14 +287,19 @@ func NuclioHandler(context *nuclio.Context, event nuclio.Event) (interface{}, er
 	bestFit, bestPos, globalCov := crayfish(rabbitData.T, lb, ub, rabbitData.F, rabbitData.SubPopulation, F)
 
 	// Publish in Redis
-	err = publishOptimizationResults(redisClient, channel, bestFit, bestPos, globalCov)
+	if err := publishOptimizationResults(redisClient, channel, bestFit, bestPos, globalCov); err != nil {
+		context.Logger.Error("Failed to publish data to Redis: %v\n", err)
+	}
 
-	context.Logger.Error("Failed to publish data to Redis: %v\n", err)
+	/*
+		return nuclio.Response{ //Nuclio's return signature
+			StatusCode:  200,
+			ContentType: "application/json",
+			Body:        []byte("Results added to Redis Channel\n"),
+		}, nil
 
-	return nuclio.Response{ //Nuclio's return signature
-		StatusCode:  200,
-		ContentType: "application/json",
-		Body:        []byte("Results added to Redis Channel\n"),
-	}, nil
+	*/
+
+	return nil, nil
 
 }
