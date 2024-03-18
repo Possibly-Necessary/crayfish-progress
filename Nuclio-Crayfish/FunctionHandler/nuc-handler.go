@@ -1,10 +1,19 @@
 /*
-	Command that built this function:
+
+Command that built this function (initially):
 
 	nuctl deploy nuc-handler \
     	--namespace nuclio \
     	--file function2.yaml \
     	--registry docker.io/arthurmerlin
+
+Command used with the functionconfig.yaml file:
+
+	nuctl deploy nuc-handler \
+    	--namespace nuclio \
+    	--file functionconfig.yaml \
+    	--registry docker.io/arthurmerlin
+     
 */
 
 package main
