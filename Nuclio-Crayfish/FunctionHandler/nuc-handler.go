@@ -43,7 +43,9 @@ func initRedisClient() (*redis.Client, error) {
 
 	redisClient := redis.NewClient(&redis.Options{
 		//Addr: fmt.Sprintf("%s:%s", "127.0.0.1", "6379"),
-		Addr: "redis-master.default.svc.cluster.local:6379",
+		Addr: "redis-master.default.svc.cluster.local:6379", // Redis connection string within k8s
+		Password: "pass", // Password (this is not the actual password)
+		DB: 0, // Default DB
 	})
 	// Ping the Redis server to check the connection
 	_, err := redisClient.Ping().Result()
