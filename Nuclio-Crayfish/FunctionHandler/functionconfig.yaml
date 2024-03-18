@@ -7,7 +7,7 @@ spec:
   handler: "nuc-handler:NuclioHandler"
   runtime: "golang"
   build:
-    path: .
+    path: . # For this, we need to be in the directory of the source code to use the 'nuctl' deploy.
   minReplicas: 1
   triggers:
     myRabbitMQTopic:
