@@ -17,3 +17,4 @@ spec:
       queueName: subPopQueue 
       host: amqp://nuclio:crayfish@rabbitmq.default.svc.cluster.local:5672/ # RabbitMQ connection string
       mode: QueueLength
+      value: "1" # Target per instance 
