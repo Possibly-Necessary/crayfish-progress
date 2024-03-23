@@ -1,0 +1,54 @@
+metadata:
+  name: nuc-handler
+  labels:
+    nuclio.io/project-name: default
+  resourceVersion: "1073643"
+spec:
+  handler: "nuc-handler:NuclioHandler"
+  runtime: golang
+  resources:
+    requests:
+      cpu: 25m
+      memory: 1Mi
+  image: "docker.io/arthurmerlin/processor-nuc-handler:latest"
+  imageHash: "1710788017019969350"
+  minReplicas: 1
+  maxReplicas: 1
+  targetCPU: 75
+  triggers:
+    default-http:
+      class: ""
+      kind: http
+      name: default-http
+      maxWorkers: 1
+      attributes:
+        serviceType: ClusterIP
+    myRabbitMQTopic:
+      class: ""
+      kind: rabbit-mq
+      name: myRabbitMQTopic
+      url: "amqp://nuclio:crayfish@rabbitmq.default.svc.cluster.local:5672/"
+      attributes:
+        exchangeName: ""
+        maxWorkers: 1
+        queueName: subPopQueue
+  version: -1
+  alias: latest
+  build:
+    functionConfigPath: functionconfig.yaml
+    registry: docker.io/arthurmerlin
+    codeEntryType: image
+    timestamp: 1710788173
+    image: ""
+    noCache: false
+    offline: false
+    dependencies: []
+    runtimeAttributes:
+      repositories: []
+  runRegistry: docker.io/arthurmerlin
+  platform: {}
+  readinessTimeoutSeconds: 120
+  securityContext: {}
+  disableDefaultHTTPTrigger: false
+  eventTimeout: ""
+  waitReadinessTimeoutBeforeFailure: false
