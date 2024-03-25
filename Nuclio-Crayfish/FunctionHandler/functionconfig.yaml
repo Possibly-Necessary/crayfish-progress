@@ -9,6 +9,7 @@ spec:
   build:
     path: . # For this, we need to be in the directory of the source code to use the 'nuctl' deploy.
   minReplicas: 1
+  maxReplicas: 10 # Updated -> added maxReplica
   triggers:
     myRabbitMQTopic:
       kind: "rabbit-mq"
@@ -16,4 +17,4 @@ spec:
       attributes:
         exchangeName: ""
         queueName: subPopQueue
-        maxWorkers: 1
+        maxWorkers: 10 # Updated from 1
