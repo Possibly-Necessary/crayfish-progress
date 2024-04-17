@@ -10,7 +10,7 @@ spec:
       limits:
         cpu: 100m
         memory: 128Mi
-  ui: # Configuring the Jaeger UI
+  ui: # Configuring the Jaeger UI (dashboard)
     options:
       dependencies:
         menuEnabled: false
