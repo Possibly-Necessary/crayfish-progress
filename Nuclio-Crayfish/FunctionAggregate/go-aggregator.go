@@ -69,7 +69,7 @@ func initRedisClient(ctx context.Context, tr trace.Tracer) (*redis.Client, error
 
 	redisClient := redis.NewClient(&redis.Options{
 		Addr:     "redis-master.default.svc.cluster.local:6379",
-		Password: "y2dvso2x4H",
+		Password: "y2dvso2x4H", // change password when using the other Redis DB 
 		DB:       0,
 	})
 
