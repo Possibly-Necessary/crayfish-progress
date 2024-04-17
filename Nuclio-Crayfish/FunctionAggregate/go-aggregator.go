@@ -18,7 +18,7 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 
-	//"go.opentelemetry.io/otel/exporters/jaeger"
+	//"go.opentelemetry.io/otel/exporters/jaeger" --> This is deprecated
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
 	"go.opentelemetry.io/otel/sdk/resource"
 	tracesdk "go.opentelemetry.io/otel/sdk/trace"
