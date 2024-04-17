@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: go-aggregator
   annotations:
-    "sidecar.jaegertracing.io/inject": "true"
+    "sidecar.jaegertracing.io/inject": "true" # By default, the Operator expects jaeger-agents to be deployed as sidecars to the target application.
 spec:
   replicas: 1
   selector:
