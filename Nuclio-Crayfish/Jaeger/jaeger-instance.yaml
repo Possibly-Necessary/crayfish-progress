@@ -20,7 +20,7 @@ spec:
       archiveEnabled: false
       tracking:
         gaID: UA-000000-2
-        trackErrors: ture
+        trackErrors: true
         customWebAnalytics: null
       menu:
       - label: "About Jaeger"
