@@ -4,20 +4,15 @@ import (
 	"context" // For OTel instrumenting
 	"log"
 	"math" // For OTel instrumenting
-
 	// For OTel instrumenting
 	"strconv"
 	"strings"
 	"time" // For OTel instrumenting
-
 	"github.com/go-redis/redis"
 	"github.com/rs/xid"
-
 	// For OTel instrumentation + Jaeger
-
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
-
 	//"go.opentelemetry.io/otel/exporters/jaeger" --> This is deprecated
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
 	"go.opentelemetry.io/otel/sdk/resource"
