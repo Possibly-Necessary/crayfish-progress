@@ -164,7 +164,7 @@ func main() {
 	totalWorkers := 4 // Number of sub-populations
 
 	// Tracer
-	tp, err := traceProvider("prod-controller.observability.svc.cluster.local:4317") // <svc-pod-name>.<namespace>.svc.cluster.local:<port>
+	tp, err := traceProvider("prod-controller.observability.svc.cluster.local:4317") // <svc-pod-name>.<namespace>.svc.cluster.local:<port> ; using port 4317 for OTel/gRPC
 	if err != nil {
 		log.Fatal("Failed to create a trace provider", err)
 	}
