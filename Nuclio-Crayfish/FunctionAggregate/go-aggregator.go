@@ -29,7 +29,7 @@ const (
 
 // A function that initiates a connection to Jaeger tracer provider
 func traceProvider(url string) (*tracesdk.TracerProvider, error) {
-	// Create Jaeger exporter
+	// Create Jaeger exporter -------> deprecated
 	/*
 		exp, err := jaeger.New(jaeger.WithCollectorEndpoint(jaeger.WithEndpoint(url)))
 		if err != nil {
