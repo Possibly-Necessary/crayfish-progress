@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: nuclio-config
+  namespace: nuclio
+data: 
+  function.yaml: |
+    logger: 
+      sinks:
+        stdout:
+          kind: stdout
+      system:
+      - level : debug
+        sink: stdout
+      functions:
+      - level : debug
+        sink: stdout
+    metrics:
+        sinks:
+          PromPull:
+            kind: prometheusPull
+            url: 8080 # changes from 8090
+            attributes:
+              jobName: nuclio-pull-job
+              instanceName: nuclio-pull-instance
+        system:
+        - PromPull
+        functions:
+        - PromPull
+
+
+
+

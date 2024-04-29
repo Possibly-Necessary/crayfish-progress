@@ -1,0 +1,12 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: go-aggregator
+  labels:
+    app: go-aggregator
+spec:
+  selector:
+    matchLabels:
+      app: go-aggregator
+  endpoints:
+  - port: 8080

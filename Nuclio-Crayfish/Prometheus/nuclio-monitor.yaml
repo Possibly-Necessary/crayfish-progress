@@ -1,0 +1,12 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: nuclio-function-monitor
+  namespace: monitoring
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: nuclio
+  endpoints:
+    #- port: http-metrics
+    - targetPort: 8080
