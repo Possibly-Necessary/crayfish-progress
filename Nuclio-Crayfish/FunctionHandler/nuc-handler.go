@@ -125,7 +125,7 @@ func selectedBenchmark(F string) benchmarks.FunctionType {
 }
 
 // _____________ Main Crayfish Algorithm________________
-// Equation 4: Mathimatical model of crayfish intake
+// Equation 4: Mathematical model of crayfish intake
 func p_obj(x float64) float64 {
 	return 0.2 * (1 / (math.Sqrt(2*math.Pi) * 3)) * math.Exp(-math.Pow(x-25, 2)/(2*math.Pow(3, 2)))
 }
