@@ -190,7 +190,7 @@ func F10(x []float64) float64 {
 	return o
 }
 
-// Benchmark function F10 - Boundar range [-600,600]
+// Benchmark function F11 - Boundar range [-600,600]
 func F11(x []float64) float64 {
 	//dim := len(x)
 	sumOfSquares := 0.0
