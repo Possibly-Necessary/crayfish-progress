@@ -1,0 +1,462 @@
+Pod ID: nuclio-nuc-handler-df47b9d6c-2vplb
+
+2024/05/03 10:23:13 Executed in: 4.896887427s
+2024/05/03 10:23:18 Executed in: 4.700107973s
+24.05.03 10:23:36.335 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:23:36.451 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:23:36.537 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:15.236 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:15.630 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:47.050 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:47.936 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:48.348 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:09.748 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:09.844 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+2024/05/03 10:25:50 Executed in: 3.410194703s
+2024/05/03 10:25:55 Executed in: 4.397255804s
+2024/05/03 10:25:59 Executed in: 3.610519056s
+2024/05/03 10:26:55 Executed in: 2.817842654s
+2024/05/03 10:26:59 Executed in: 3.193836578s
+2024/05/03 10:27:28 Executed in: 3.284607045s
+2024/05/03 10:27:31 Executed in: 3.011838059s
+2024/05/03 10:27:35 Executed in: 3.977905246s
+2024/05/03 10:27:51 Executed in: 3.21207121s
+2024/05/03 10:27:54 Executed in: 3.188272308s
+2024/05/03 10:28:09 Executed in: 3.101360986s
+2024/05/03 10:28:13 Executed in: 3.382089823s
+2024/05/03 10:28:16 Executed in: 3.193329586s
+2024/05/03 10:28:31 Executed in: 3.475835329s
+2024/05/03 10:28:35 Executed in: 3.408680508s
+2024/05/03 10:28:46 Executed in: 3.388562273s
+2024/05/03 10:28:49 Executed in: 3.788260627s
+2024/05/03 10:29:04 Executed in: 3.794516745s
+2024/05/03 10:29:08 Executed in: 3.689116024s
+2024/05/03 10:29:21 Executed in: 2.706177133s
+2024/05/03 10:29:25 Executed in: 3.208843728s
+2024/05/03 10:29:49 Executed in: 3.795675354s
+2024/05/03 10:29:52 Executed in: 2.789014981s
+2024/05/03 10:30:19 Executed in: 2.989873761s
+2024/05/03 10:30:22 Executed in: 2.819427706s
+2024/05/03 10:30:36 Executed in: 3.679566876s
+2024/05/03 10:30:40 Executed in: 3.697804552s
+2024/05/03 10:30:59 Executed in: 3.687078724s
+2024/05/03 10:31:02 Executed in: 3.394133916s
+2024/05/03 10:31:29 Executed in: 2.904869834s
+2024/05/03 10:31:32 Executed in: 3.373219998s
+24.05.03 10:31:56.241 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:31:56.629 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:32:17.457 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:32:17.547 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+2024/05/03 10:32:50 Executed in: 3.281308755s
+2024/05/03 10:32:54 Executed in: 3.880167249s
+2024/05/03 10:33:04 Executed in: 3.100377869s
+2024/05/03 10:33:08 Executed in: 3.297066172s
+2024/05/03 10:33:17 Executed in: 3.466492721s
+2024/05/03 10:33:20 Executed in: 2.91576585s
+2024/05/03 10:34:14 Executed in: 3.984997453s
+2024/05/03 10:34:18 Executed in: 3.3924643s
+2024/05/03 10:34:31 Executed in: 3.300143992s
+2024/05/03 10:34:34 Executed in: 3.098594788s
+2024/05/03 10:34:59 Executed in: 3.804072839s
+2024/05/03 10:35:02 Executed in: 3.277850092s
+2024/05/03 10:35:39 Executed in: 3.114837386s
+2024/05/03 10:35:42 Executed in: 3.39301794s
+2024/05/03 10:36:07 Executed in: 4.387205521s
+2024/05/03 10:36:10 Executed in: 3.4954601s
+2024/05/03 10:36:27 Executed in: 3.395331174s
+2024/05/03 10:36:30 Executed in: 3.207261022s
+2024/05/03 10:36:44 Executed in: 3.097681238s
+2024/05/03 10:36:48 Executed in: 3.184160888s
+2024/05/03 10:37:13 Executed in: 3.501647278s
+2024/05/03 10:37:16 Executed in: 3.312650514s
+2024/05/03 10:38:13 Executed in: 3.696722275s
+2024/05/03 10:38:17 Executed in: 3.484053039s
+
+_____________________________________________________
+
+Pod ID: nuclio-nuc-handler-df47b9d6c-4x7bj
+
+24.05.03 10:22:29.232 (D)                 processor Processor started
+2024/05/03 10:23:13 Executed in: 4.78947764s
+2024/05/03 10:23:18 Executed in: 4.899032459s
+24.05.03 10:23:36.431 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:23:36.532 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:23:36.644 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:15.147 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:15.449 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:47.035 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:47.676 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:47.943 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:09.236 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:09.831 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+2024/05/03 10:25:49 Executed in: 3.20718724s
+2024/05/03 10:25:53 Executed in: 3.980068596s
+2024/05/03 10:25:57 Executed in: 3.716870617s
+2024/05/03 10:26:56 Executed in: 3.185524411s
+2024/05/03 10:26:58 Executed in: 2.894800946s
+2024/05/03 10:27:28 Executed in: 3.299607147s
+2024/05/03 10:27:31 Executed in: 2.784531484s
+2024/05/03 10:27:34 Executed in: 3.50665928s
+2024/05/03 10:27:51 Executed in: 3.3106666s
+2024/05/03 10:27:54 Executed in: 3.291882021s
+2024/05/03 10:28:09 Executed in: 3.113759548s
+2024/05/03 10:28:13 Executed in: 3.812983983s
+2024/05/03 10:28:16 Executed in: 2.812073369s
+2024/05/03 10:28:32 Executed in: 4.292972865s
+2024/05/03 10:28:36 Executed in: 3.517058663s
+2024/05/03 10:28:46 Executed in: 3.488686521s
+2024/05/03 10:28:49 Executed in: 3.303189845s
+2024/05/03 10:29:04 Executed in: 3.702096683s
+2024/05/03 10:29:08 Executed in: 3.781269082s
+2024/05/03 10:29:22 Executed in: 3.299388567s
+2024/05/03 10:29:25 Executed in: 3.180423079s
+2024/05/03 10:29:49 Executed in: 3.784239034s
+2024/05/03 10:29:53 Executed in: 3.697324376s
+2024/05/03 10:30:19 Executed in: 3.188319657s
+2024/05/03 10:30:23 Executed in: 3.311601641s
+2024/05/03 10:30:36 Executed in: 3.479452388s
+2024/05/03 10:30:40 Executed in: 3.587753903s
+2024/05/03 10:30:59 Executed in: 3.187653135s
+2024/05/03 10:31:02 Executed in: 3.387136743s
+2024/05/03 10:31:29 Executed in: 3.080613405s
+2024/05/03 10:31:33 Executed in: 3.625773038s
+24.05.03 10:31:56.428 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:31:56.637 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:32:17.528 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:32:17.552 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+2024/05/03 10:32:49 Executed in: 3.089962133s
+2024/05/03 10:32:53 Executed in: 3.597431118s
+2024/05/03 10:33:05 Executed in: 3.68942154s
+2024/05/03 10:33:09 Executed in: 3.494768527s
+2024/05/03 10:33:17 Executed in: 3.198349747s
+2024/05/03 10:33:20 Executed in: 3.391605812s
+2024/05/03 10:34:14 Executed in: 4.094080211s
+2024/05/03 10:34:18 Executed in: 3.716396803s
+2024/05/03 10:34:31 Executed in: 3.289628416s
+2024/05/03 10:34:35 Executed in: 4.206161802s
+2024/05/03 10:34:59 Executed in: 3.870259671s
+2024/05/03 10:35:02 Executed in: 3.295065152s
+2024/05/03 10:35:39 Executed in: 3.082542891s
+2024/05/03 10:35:42 Executed in: 3.207949671s
+2024/05/03 10:36:06 Executed in: 3.663838986s
+2024/05/03 10:36:09 Executed in: 3.201616484s
+2024/05/03 10:36:27 Executed in: 3.179600392s
+2024/05/03 10:36:30 Executed in: 2.906385459s
+2024/05/03 10:36:45 Executed in: 3.207380755s
+2024/05/03 10:36:48 Executed in: 3.287007046s
+2024/05/03 10:37:13 Executed in: 3.296767239s
+2024/05/03 10:37:16 Executed in: 2.990420116s
+2024/05/03 10:38:13 Executed in: 3.589598485s
+2024/05/03 10:38:17 Executed in: 3.919495389s
+
+____________________________________________________________
+
+Pod ID: nuclio-nuc-handler-df47b9d6c-txsr4 (4th pod)
+
+24.05.03 10:18:23.877 (D)                 processor Processor started
+2024/05/03 10:18:25 Executed in: 1.419248548s
+2024/05/03 10:18:25 Executed in: 531.587979ms
+2024/05/03 10:18:26 Executed in: 578.683831ms
+2024/05/03 10:18:27 Executed in: 877.342357ms
+2024/05/03 10:18:28 Executed in: 574.594727ms
+2024/05/03 10:18:28 Executed in: 568.13372ms
+2024/05/03 10:18:29 Executed in: 557.808109ms
+2024/05/03 10:18:31 Executed in: 2.000730356s
+2024/05/03 10:18:33 Executed in: 2.36490801s
+2024/05/03 10:18:34 Executed in: 678.95495ms
+2024/05/03 10:20:56 Executed in: 2.291829784s
+2024/05/03 10:20:56 Executed in: 613.821271ms
+2024/05/03 10:20:57 Executed in: 714.803014ms
+2024/05/03 10:20:58 Executed in: 622.334512ms
+2024/05/03 10:20:58 Executed in: 594.376993ms
+2024/05/03 10:21:01 Executed in: 2.5281367s
+2024/05/03 10:21:03 Executed in: 1.820796305s
+2024/05/03 10:21:03 Executed in: 817.19869ms
+2024/05/03 10:21:05 Executed in: 1.320040908s
+2024/05/03 10:21:05 Executed in: 574.66742ms
+2024/05/03 10:21:28 Executed in: 3.906183064s
+2024/05/03 10:21:31 Executed in: 2.998483665s
+2024/05/03 10:21:36 Executed in: 5.369218898s
+2024/05/03 10:21:40 Executed in: 3.988472697s
+2024/05/03 10:21:45 Executed in: 4.414622293s
+2024/05/03 10:21:48 Executed in: 3.374430617s
+2024/05/03 10:21:53 Executed in: 4.296429147s
+2024/05/03 10:21:57 Executed in: 4.218167554s
+2024/05/03 10:22:01 Executed in: 3.606167457s
+2024/05/03 10:22:05 Executed in: 4.684701736s
+2024/05/03 10:22:10 Executed in: 4.795136512s
+2024/05/03 10:22:15 Executed in: 4.887346667s
+2024/05/03 10:22:20 Executed in: 4.975044745s
+2024/05/03 10:22:26 Executed in: 5.976529516s
+2024/05/03 10:22:31 Executed in: 4.872325122s
+2024/05/03 10:22:36 Executed in: 4.998466342s
+2024/05/03 10:22:41 Executed in: 4.404871619s
+2024/05/03 10:22:46 Executed in: 4.706227228s
+2024/05/03 10:22:50 Executed in: 3.908113127s
+2024/05/03 10:22:55 Executed in: 4.606878953s
+2024/05/03 10:23:14 Executed in: 5.288690276s
+2024/05/03 10:23:20 Executed in: 5.590616073s
+24.05.03 10:23:20.735 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:23:36.737 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:23:37.234 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:16.946 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:17.035 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:17.234 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:47.142 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:47.828 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:09.335 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:09.428 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:10.350 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+2024/05/03 10:25:50 Executed in: 3.310677733s
+2024/05/03 10:25:55 Executed in: 4.699764151s
+2024/05/03 10:26:56 Executed in: 3.191467865s
+2024/05/03 10:26:59 Executed in: 3.383441935s
+2024/05/03 10:27:02 Executed in: 3.110935097s
+2024/05/03 10:27:29 Executed in: 3.493471496s
+2024/05/03 10:27:32 Executed in: 3.491982666s
+2024/05/03 10:27:52 Executed in: 3.778369207s
+2024/05/03 10:27:56 Executed in: 4.004986057s
+2024/05/03 10:28:00 Executed in: 3.29761162s
+2024/05/03 10:28:10 Executed in: 3.700357283s
+2024/05/03 10:28:13 Executed in: 3.508014133s
+2024/05/03 10:28:31 Executed in: 3.305211435s
+2024/05/03 10:28:35 Executed in: 3.610931598s
+2024/05/03 10:28:46 Executed in: 3.205962622s
+2024/05/03 10:28:51 Executed in: 3.900258017s
+2024/05/03 10:29:05 Executed in: 4.099187267s
+2024/05/03 10:29:09 Executed in: 3.308094284s
+2024/05/03 10:29:23 Executed in: 2.987224546s
+2024/05/03 10:29:27 Executed in: 3.613094524s
+2024/05/03 10:29:48 Executed in: 3.595497414s
+2024/05/03 10:29:52 Executed in: 3.601203124s
+2024/05/03 10:30:20 Executed in: 3.274256485s
+2024/05/03 10:30:23 Executed in: 3.582584345s
+2024/05/03 10:30:37 Executed in: 3.921047505s
+2024/05/03 10:30:41 Executed in: 3.515545407s
+2024/05/03 10:30:59 Executed in: 3.297725743s
+2024/05/03 10:31:04 Executed in: 3.786663226s
+2024/05/03 10:31:29 Executed in: 3.268155047s
+2024/05/03 10:31:32 Executed in: 3.10178317s
+24.05.03 10:31:56.241 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:31:56.749 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:32:17.747 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:32:17.926 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+2024/05/03 10:32:50 Executed in: 3.291613835s
+2024/05/03 10:32:54 Executed in: 3.180885382s
+2024/05/03 10:33:07 Executed in: 4.901937484s
+2024/05/03 10:33:11 Executed in: 3.606288277s
+2024/05/03 10:33:17 Executed in: 3.492316789s
+2024/05/03 10:33:20 Executed in: 3.40596446s
+2024/05/03 10:34:16 Executed in: 4.399040192s
+2024/05/03 10:34:20 Executed in: 4.080395873s
+2024/05/03 10:34:31 Executed in: 3.107412319s
+2024/05/03 10:34:36 Executed in: 4.180898965s
+2024/05/03 10:34:59 Executed in: 3.616052771s
+2024/05/03 10:35:03 Executed in: 3.590236818s
+2024/05/03 10:35:40 Executed in: 3.585275909s
+2024/05/03 10:35:44 Executed in: 4.109961928s
+2024/05/03 10:36:06 Executed in: 3.416235813s
+2024/05/03 10:36:09 Executed in: 3.190171285s
+2024/05/03 10:36:28 Executed in: 3.59767859s
+2024/05/03 10:36:32 Executed in: 3.308992982s
+2024/05/03 10:36:45 Executed in: 2.998444352s
+2024/05/03 10:36:48 Executed in: 3.205291496s
+2024/05/03 10:37:14 Executed in: 3.71460261s
+2024/05/03 10:37:17 Executed in: 3.105121544s
+2024/05/03 10:38:14 Executed in: 3.591357587s
+2024/05/03 10:38:18 Executed in: 3.619454674s
+
+_________________________________________________________
+
+5th Pod ID: nuclio-nuc-handler-df47b9d6c-whc72
+
+24.05.03 10:22:28.933 (D)                 processor Processor started
+2024/05/03 10:23:15 Executed in: 5.983061261s
+2024/05/03 10:23:20 Executed in: 4.480144235s
+24.05.03 10:23:20.156 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:23:36.349 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:23:36.439 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:15.135 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:15.448 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:15.536 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:47.036 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:24:47.743 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:08.930 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:09.847 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:25:10.227 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+2024/05/03 10:25:49 Executed in: 2.80292765s
+2024/05/03 10:25:53 Executed in: 3.87723s
+2024/05/03 10:26:55 Executed in: 3.093724333s
+2024/05/03 10:26:58 Executed in: 2.985029325s
+2024/05/03 10:27:02 Executed in: 3.089738702s
+2024/05/03 10:27:28 Executed in: 3.107035321s
+2024/05/03 10:27:31 Executed in: 3.286779217s
+2024/05/03 10:27:51 Executed in: 3.178162012s
+2024/05/03 10:27:54 Executed in: 3.309476708s
+2024/05/03 10:27:57 Executed in: 3.197852054s
+2024/05/03 10:28:09 Executed in: 3.173448003s
+2024/05/03 10:28:13 Executed in: 3.389021241s
+2024/05/03 10:28:31 Executed in: 2.883066499s
+2024/05/03 10:28:34 Executed in: 3.507040212s
+2024/05/03 10:28:45 Executed in: 3.26172276s
+2024/05/03 10:28:49 Executed in: 3.494088404s
+2024/05/03 10:29:04 Executed in: 3.985395868s
+2024/05/03 10:29:08 Executed in: 3.400340443s
+2024/05/03 10:29:22 Executed in: 3.173544828s
+2024/05/03 10:29:26 Executed in: 4.194496325s
+2024/05/03 10:29:48 Executed in: 3.498125348s
+2024/05/03 10:29:52 Executed in: 3.600563147s
+2024/05/03 10:30:19 Executed in: 3.002290779s
+2024/05/03 10:30:23 Executed in: 3.387925855s
+2024/05/03 10:30:36 Executed in: 3.583472586s
+2024/05/03 10:30:40 Executed in: 3.596900215s
+2024/05/03 10:30:59 Executed in: 3.581231519s
+2024/05/03 10:31:02 Executed in: 3.403133138s
+2024/05/03 10:31:29 Executed in: 2.994267199s
+2024/05/03 10:31:32 Executed in: 3.281538504s
+24.05.03 10:31:56.045 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:31:56.636 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:32:17.454 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+24.05.03 10:32:17.538 (E)                 processor Failed to initialize a new Redis Client: Unable to connect to Redis..
+
+
+2024/05/03 10:32:50 Executed in: 3.479424364s
+2024/05/03 10:32:53 Executed in: 3.492024094s
+2024/05/03 10:33:05 Executed in: 3.47150706s
+2024/05/03 10:33:08 Executed in: 3.195488446s
+2024/05/03 10:33:16 Executed in: 3.087936174s
+2024/05/03 10:33:19 Executed in: 2.996875427s
+2024/05/03 10:34:14 Executed in: 3.784547365s
+2024/05/03 10:34:18 Executed in: 3.695395696s
+2024/05/03 10:34:31 Executed in: 3.299840689s
+2024/05/03 10:34:35 Executed in: 3.904744706s
+2024/05/03 10:34:58 Executed in: 3.37152101s
+2024/05/03 10:35:02 Executed in: 3.597689114s
+2024/05/03 10:35:39 Executed in: 3.479759226s
+2024/05/03 10:35:42 Executed in: 3.206230771s
+2024/05/03 10:36:05 Executed in: 3.19173616s
+2024/05/03 10:36:09 Executed in: 3.289979092s
+2024/05/03 10:36:27 Executed in: 3.217958653s
+2024/05/03 10:36:30 Executed in: 3.012636541s
+2024/05/03 10:36:44 Executed in: 2.89028424s
+2024/05/03 10:36:47 Executed in: 3.192535712s
+2024/05/03 10:37:13 Executed in: 3.704064224s
+2024/05/03 10:37:16 Executed in: 3.327046004s
+2024/05/03 10:38:13 Executed in: 3.398875027s
+2024/05/03 10:38:17 Executed in: 3.494124222s
+
+
