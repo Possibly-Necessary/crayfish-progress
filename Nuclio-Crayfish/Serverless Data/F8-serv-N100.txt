@@ -1,0 +1,105 @@
+2024/05/03 09:43:57 Setting up Redis client
+2024/05/03 09:43:57 Redis server ping response: PONG
+2024/05/03 09:43:57 Connected to Redis server
+2024/05/03 09:43:57 Connected to Redis server
+2024/05/03 10:18:34 Overall Best Fitness: -57238.02429962941
+2024/05/03 10:18:34 Executed in: 682.120454ms
+2024/05/03 10:21:05 Overall Best Fitness: -62699.26256599047
+2024/05/03 10:21:05 Executed in: 578.485609ms
+2024/05/03 10:22:05 Overall Best Fitness: -62240.40146814424
+2024/05/03 10:22:05 Executed in: 4.779534726s
+2024/05/03 10:22:55 Overall Best Fitness: -60922.25369114863
+2024/05/03 10:22:55 Executed in: 4.619695303s
+2024/05/03 10:25:49 Overall Best Fitness: -59412.20092769678
+2024/05/03 10:25:49 Executed in: 211.343696ms
+2024/05/03 10:26:56 Overall Best Fitness: -60368.30616674216
+2024/05/03 10:26:56 Executed in: 195.588256ms
+2024/05/03 10:27:28 Overall Best Fitness: -58027.750666365275
+2024/05/03 10:27:28 Executed in: 108.239631ms
+2024/05/03 10:27:51 Overall Best Fitness: -55615.37594202661
+2024/05/03 10:27:51 Executed in: 113.733764ms
+2024/05/03 10:28:09 Overall Best Fitness: -61551.94776888668
+2024/05/03 10:28:09 Executed in: 104.360157ms
+2024/05/03 10:28:31 Overall Best Fitness: -63061.61489562913
+2024/05/03 10:28:31 Executed in: 299.167296ms
+2024/05/03 10:28:45 Overall Best Fitness: -64339.433918489885
+2024/05/03 10:28:45 Executed in: 119.114795ms
+2024/05/03 10:29:04 Overall Best Fitness: -55797.49528798513
+2024/05/03 10:29:04 Executed in: 654.401µs
+2024/05/03 10:29:22 Overall Best Fitness: -59059.547423459386
+2024/05/03 10:29:22 Executed in: 383.28886ms
+2024/05/03 10:29:48 Overall Best Fitness: -55464.61253796213
+2024/05/03 10:29:48 Executed in: 189.999423ms
+2024/05/03 10:30:19 Overall Best Fitness: -59350.894508926656
+2024/05/03 10:30:19 Executed in: 196.465293ms
+2024/05/03 10:30:36 Overall Best Fitness: -63680.08642968586
+2024/05/03 10:30:36 Executed in: 97.725392ms
+2024/05/03 10:30:59 Overall Best Fitness: -62171.1486150511
+2024/05/03 10:30:59 Executed in: 109.140486ms
+2024/05/03 10:31:29 Overall Best Fitness: -58443.860687807035
+2024/05/03 10:31:29 Executed in: 105.277801ms
+2024/05/03 10:32:49 Overall Best Fitness: -57890.147573575785
+2024/05/03 10:32:49 Executed in: 79.732593ms
+2024/05/03 10:33:05 Overall Best Fitness: -56032.09208476137
+2024/05/03 10:33:05 Executed in: 301.923078ms
+2024/05/03 10:33:17 Overall Best Fitness: -61614.73834806683
+2024/05/03 10:33:17 Executed in: 189.068249ms
+2024/05/03 10:34:14 Overall Best Fitness: -62113.8640146478
+2024/05/03 10:34:14 Executed in: 212.290807ms
+2024/05/03 10:34:31 Overall Best Fitness: -67368.94020701588
+2024/05/03 10:34:31 Executed in: 623.705µs
+2024/05/03 10:34:59 Overall Best Fitness: -55649.13930833009
+2024/05/03 10:34:59 Executed in: 502.522312ms
+2024/05/03 10:35:39 Overall Best Fitness: -57798.579737731176
+2024/05/03 10:35:39 Executed in: 99.754784ms
+2024/05/03 10:36:06 Overall Best Fitness: -62169.55146952354
+2024/05/03 10:36:06 Executed in: 524.319435ms
+2024/05/03 10:36:27 Overall Best Fitness: -59693.86316448467
+2024/05/03 10:36:27 Executed in: 88.2144ms
+2024/05/03 10:36:44 Overall Best Fitness: -61676.86410001968
+2024/05/03 10:36:44 Executed in: 411.881889ms
+2024/05/03 10:37:13 Overall Best Fitness: -58108.30227460608
+2024/05/03 10:37:13 Executed in: 1.957199ms
+2024/05/03 10:38:13 Overall Best Fitness: -69625.76878594975
+2024/05/03 10:38:13 Executed in: 863.7µs
+
+_______________________ For F8 N=100; Entry Func ____________
+
+24.05.03 09:43:03.958 (D)                 processor Processor started
+2024/05/03 10:13:57 Function Executed in: 223.404306ms
+2024/05/03 10:20:53 Function Executed in: 633.569308ms
+2024/05/03 10:21:23 Function Executed in: 383.492557ms
+2024/05/03 10:21:57 Function Executed in: 409.981775ms
+2024/05/03 10:23:07 Function Executed in: 708.256545ms
+2024/05/03 10:23:36 Function Executed in: 810.407182ms
+2024/05/03 10:24:15 Function Executed in: 713.208981ms
+2024/05/03 10:24:47 Function Executed in: 2.134985458s
+2024/05/03 10:25:09 Function Executed in: 1.518099802s
+2024/05/03 10:25:46 Function Executed in: 724.600498ms
+2024/05/03 10:26:52 Function Executed in: 1.500626669s
+2024/05/03 10:27:25 Function Executed in: 588.24343ms
+2024/05/03 10:27:48 Function Executed in: 565.378111ms
+2024/05/03 10:28:07 Function Executed in: 898.315404ms
+2024/05/03 10:28:28 Function Executed in: 705.516515ms
+2024/05/03 10:28:42 Function Executed in: 590.080558ms
+2024/05/03 10:29:01 Function Executed in: 615.213533ms
+2024/05/03 10:29:19 Function Executed in: 413.689966ms
+2024/05/03 10:29:46 Function Executed in: 2.081510139s
+2024/05/03 10:30:16 Function Executed in: 1.009657707s
+2024/05/03 10:30:33 Function Executed in: 501.765875ms
+2024/05/03 10:30:55 Function Executed in: 1.621601573s
+2024/05/03 10:31:27 Function Executed in: 2.092680029s
+2024/05/03 10:31:56 Function Executed in: 1.60322945s
+2024/05/03 10:32:17 Function Executed in: 275.113202ms
+2024/05/03 10:32:47 Function Executed in: 1.420840382s
+2024/05/03 10:33:01 Function Executed in: 475.520165ms
+2024/05/03 10:33:13 Function Executed in: 116.547871ms
+2024/05/03 10:34:10 Function Executed in: 1.191116719s
+2024/05/03 10:34:28 Function Executed in: 904.231437ms
+2024/05/03 10:34:56 Function Executed in: 1.271778057s
+2024/05/03 10:35:36 Function Executed in: 1.202722789s
+2024/05/03 10:36:02 Function Executed in: 903.571476ms
+2024/05/03 10:36:24 Function Executed in: 1.509775788s
+2024/05/03 10:36:43 Function Executed in: 1.794801079s
+2024/05/03 10:37:10 Function Executed in: 2.782637753s
+2024/05/03 10:38:09 Function Executed in: 1.216710712s

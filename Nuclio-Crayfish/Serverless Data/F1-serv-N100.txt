@@ -1,0 +1,64 @@
+2024/05/03 13:15:02 Setting up Redis client
+2024/05/03 13:15:02 Redis server ping response: PONG
+2024/05/03 13:15:02 Connected to Redis server
+2024/05/03 13:15:02 Connected to Redis server
+2024/05/03 13:25:31 Overall Best Fitness: 0
+2024/05/03 13:25:31 Executed in: 616.539383ms
+2024/05/03 13:25:37 Overall Best Fitness: 0
+2024/05/03 13:25:37 Executed in: 792.541698ms
+2024/05/03 13:25:43 Overall Best Fitness: 0
+2024/05/03 13:25:43 Executed in: 557.676769ms
+2024/05/03 13:25:49 Overall Best Fitness: 0
+2024/05/03 13:25:49 Executed in: 433.700295ms
+2024/05/03 13:25:57 Overall Best Fitness: 0
+2024/05/03 13:25:57 Executed in: 421.357133ms
+2024/05/03 13:26:11 Overall Best Fitness: 0
+2024/05/03 13:26:11 Executed in: 551.202458ms
+2024/05/03 13:26:33 Overall Best Fitness: 0
+2024/05/03 13:26:33 Executed in: 1.081909625s
+2024/05/03 13:26:46 Overall Best Fitness: 0
+2024/05/03 13:26:46 Executed in: 482.10392ms
+2024/05/03 13:27:03 Overall Best Fitness: 0
+2024/05/03 13:27:03 Executed in: 2.480974871s
+2024/05/03 13:27:24 Overall Best Fitness: 0
+2024/05/03 13:27:24 Executed in: 1.62077362s
+2024/05/03 13:27:45 Overall Best Fitness: 0
+2024/05/03 13:27:45 Executed in: 2.222356666s
+2024/05/03 13:28:06 Overall Best Fitness: 0
+2024/05/03 13:28:06 Executed in: 1.076994784s
+2024/05/03 13:28:23 Overall Best Fitness: 0
+2024/05/03 13:28:23 Executed in: 21.096189ms
+2024/05/03 13:28:40 Overall Best Fitness: 0
+2024/05/03 13:28:40 Executed in: 300.323257ms
+2024/05/03 13:29:06 Overall Best Fitness: 0
+2024/05/03 13:29:06 Executed in: 15.574084ms
+2024/05/03 13:29:19 Overall Best Fitness: 0
+2024/05/03 13:29:19 Executed in: 26.556342ms
+2024/05/03 13:29:38 Overall Best Fitness: 0
+2024/05/03 13:29:38 Executed in: 697.148228ms
+2024/05/03 13:29:55 Overall Best Fitness: 0
+2024/05/03 13:29:55 Executed in: 485.015314ms
+2024/05/03 13:30:13 Overall Best Fitness: 0
+2024/05/03 13:30:13 Executed in: 188.158231ms
+2024/05/03 13:30:37 Overall Best Fitness: 0
+2024/05/03 13:30:37 Executed in: 592.098632ms
+2024/05/03 13:31:01 Overall Best Fitness: 0
+2024/05/03 13:31:01 Executed in: 51.071762ms
+2024/05/03 13:31:12 Overall Best Fitness: 0
+2024/05/03 13:31:12 Executed in: 107.967854ms
+2024/05/03 13:31:27 Overall Best Fitness: 0
+2024/05/03 13:31:27 Executed in: 2.315571521s
+2024/05/03 13:31:45 Overall Best Fitness: 0
+2024/05/03 13:31:45 Executed in: 187.188583ms
+2024/05/03 13:32:03 Overall Best Fitness: 0
+2024/05/03 13:32:03 Executed in: 307.649042ms
+2024/05/03 13:32:31 Overall Best Fitness: 0
+2024/05/03 13:32:31 Executed in: 397.883661ms
+2024/05/03 13:33:02 Overall Best Fitness: 0
+2024/05/03 13:33:02 Executed in: 1.792349092s
+2024/05/03 13:33:16 Overall Best Fitness: 0
+2024/05/03 13:33:16 Executed in: 202.160988ms
+2024/05/03 13:33:51 Overall Best Fitness: 0
+2024/05/03 13:33:51 Executed in: 79.880755ms
+2024/05/03 13:34:04 Overall Best Fitness: 0
+2024/05/03 13:34:04 Executed in: 106.076535ms

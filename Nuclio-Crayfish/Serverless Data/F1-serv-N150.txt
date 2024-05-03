@@ -1,0 +1,59 @@
+2024/05/03 13:35:13 Overall Best Fitness: 0
+2024/05/03 13:35:13 Executed in: 1.814184279s
+2024/05/03 13:35:32 Overall Best Fitness: 0
+2024/05/03 13:35:32 Executed in: 2.480145607s
+2024/05/03 13:35:50 Overall Best Fitness: 0
+2024/05/03 13:35:50 Executed in: 192.344833ms
+2024/05/03 13:36:08 Overall Best Fitness: 0
+2024/05/03 13:36:08 Executed in: 10.044699ms
+2024/05/03 13:36:30 Overall Best Fitness: 0
+2024/05/03 13:36:30 Executed in: 103.361732ms
+2024/05/03 13:36:47 Overall Best Fitness: 0
+2024/05/03 13:36:47 Executed in: 13.708065ms
+2024/05/03 13:37:02 Overall Best Fitness: 0
+2024/05/03 13:37:02 Executed in: 1.397304333s
+2024/05/03 13:37:15 Overall Best Fitness: 0
+2024/05/03 13:37:15 Executed in: 102.498142ms
+2024/05/03 13:37:30 Overall Best Fitness: 0
+2024/05/03 13:37:30 Executed in: 392.254514ms
+2024/05/03 13:37:42 Overall Best Fitness: 0
+2024/05/03 13:37:42 Executed in: 7.301489ms
+2024/05/03 13:37:58 Overall Best Fitness: 0
+2024/05/03 13:37:58 Executed in: 399.344352ms
+2024/05/03 13:38:22 Overall Best Fitness: 0
+2024/05/03 13:38:22 Executed in: 3.003639236s
+2024/05/03 13:38:40 Overall Best Fitness: 0
+2024/05/03 13:38:40 Executed in: 380.692852ms
+2024/05/03 13:38:56 Overall Best Fitness: 0
+2024/05/03 13:38:56 Executed in: 417.418558ms
+2024/05/03 13:39:23 Overall Best Fitness: 0
+2024/05/03 13:39:23 Executed in: 405.514714ms
+2024/05/03 13:39:39 Overall Best Fitness: 0
+2024/05/03 13:39:39 Executed in: 2.542812ms
+2024/05/03 13:39:54 Overall Best Fitness: 0
+2024/05/03 13:39:54 Executed in: 1.314297126s
+2024/05/03 13:40:14 Overall Best Fitness: 0
+2024/05/03 13:40:14 Executed in: 231.688279ms
+2024/05/03 13:40:31 Overall Best Fitness: 0
+2024/05/03 13:40:31 Executed in: 1.015136337s
+2024/05/03 13:40:47 Overall Best Fitness: 0
+2024/05/03 13:40:47 Executed in: 181.435432ms
+2024/05/03 13:41:06 Overall Best Fitness: 0
+2024/05/03 13:41:06 Executed in: 97.369594ms
+2024/05/03 13:41:28 Overall Best Fitness: 0
+2024/05/03 13:41:28 Executed in: 2.15278ms
+2024/05/03 13:41:44 Overall Best Fitness: 0
+2024/05/03 13:41:44 Executed in: 1.408669057s
+2024/05/03 13:42:37 Overall Best Fitness: 0
+2024/05/03 13:42:37 Executed in: 293.23294ms
+2024/05/03 13:42:58 Overall Best Fitness: 0
+2024/05/03 13:42:58 Executed in: 291.44202ms
+2024/05/03 13:43:13 Overall Best Fitness: 0
+2024/05/03 13:43:13 Executed in: 5.732599ms
+2024/05/03 13:43:32 Overall Best Fitness: 0
+2024/05/03 13:43:32 Executed in: 207.749472ms
+2024/05/03 13:43:51 Overall Best Fitness: 0
+2024/05/03 13:43:51 Executed in: 300.89439ms
+2024/05/03 13:44:06 Overall Best Fitness: 0
+2024/05/03 13:44:06 Executed in: 711.498897ms
+2024/05/03 13:44:25 Overall Best Fitness: 0

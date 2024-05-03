@@ -1,0 +1,109 @@
+2024/05/03 16:28:46 Overall Best Fitness: 497.6094331916488
+2024/05/03 16:28:46 Executed in: 3.226344981s
+2024/05/03 16:29:50 Overall Best Fitness: 496.6265640321336
+2024/05/03 16:29:50 Executed in: 131.007805ms
+
+__________________ New Deployment _______________
+
+2024/05/03 16:39:40 Setting up Redis client
+2024/05/03 16:39:40 Redis server ping response: PONG
+2024/05/03 16:39:40 Connected to Redis server
+2024/05/03 16:39:40 Connected to Redis server
+2024/05/03 16:41:46 Overall Best Fitness: 496.7882022530702
+2024/05/03 16:41:46 Executed in: 716.61726ms
+2024/05/03 16:42:56 Overall Best Fitness: 497.4593797645104
+2024/05/03 16:42:56 Executed in: 923.411314ms
+2024/05/03 16:46:16 Overall Best Fitness: 497.4370222809959
+2024/05/03 16:46:16 Executed in: 1.69993956s
+2024/05/03 16:47:57 Overall Best Fitness: 497.54673088962494
+2024/05/03 16:47:57 Executed in: 1.914599621s
+2024/05/03 16:49:21 Overall Best Fitness: 497.3875286275769
+2024/05/03 16:49:21 Executed in: 2.31162103s
+2024/05/03 16:52:12 Overall Best Fitness: 497.3638226446949
+2024/05/03 16:52:12 Executed in: 605.834072ms
+2024/05/03 16:53:48 Overall Best Fitness: 497.05997970798927
+2024/05/03 16:53:48 Executed in: 14.688424ms
+
+________________ New Deployment _____________________________
+
+2024/05/03 16:58:33 Setting up Redis client
+2024/05/03 16:58:33 Redis server ping response: PONG
+2024/05/03 16:58:33 Connected to Redis server
+2024/05/03 16:58:33 Connected to Redis server
+2024/05/03 17:00:36 Overall Best Fitness: 497.13934839678006
+2024/05/03 17:00:36 Executed in: 99.819842ms
+2024/05/03 17:02:36 Overall Best Fitness: 496.3356600072704
+2024/05/03 17:02:36 Executed in: 1.694689762s
+2024/05/03 17:04:08 Overall Best Fitness: 497.3823860313547
+2024/05/03 17:04:08 Executed in: 506.588787ms
+2024/05/03 17:07:58 Overall Best Fitness: 497.0354577592556
+2024/05/03 17:07:58 Executed in: 1.272609752s
+2024/05/03 17:11:16 Overall Best Fitness: 497.58507675295675
+2024/05/03 17:11:16 Executed in: 1.811759037s
+2024/05/03 17:13:10 Overall Best Fitness: 496.95528395348873
+2024/05/03 17:13:10 Executed in: 1.887033204s
+
+_______________________ New Deployment ________________________
+
+2024/05/03 17:17:59 Setting up Redis client
+2024/05/03 17:18:00 Redis server ping response: PONG
+2024/05/03 17:18:00 Connected to Redis server
+2024/05/03 17:18:00 Connected to Redis server
+2024/05/03 17:19:20 Overall Best Fitness: 497.6187102524628
+2024/05/03 17:19:20 Executed in: 388.028525ms
+2024/05/03 17:20:56 Overall Best Fitness: 497.53520741327986
+2024/05/03 17:20:56 Executed in: 2.318872724s
+2024/05/03 17:22:17 Overall Best Fitness: 496.3662463977193
+2024/05/03 17:22:17 Executed in: 1.026343836s
+2024/05/03 17:24:06 Overall Best Fitness: 496.74179165978467
+2024/05/03 17:24:06 Executed in: 4.601886119s
+2024/05/03 17:26:53 Overall Best Fitness: 497.4651191314892
+2024/05/03 17:26:53 Executed in: 1m21.969127155s
+
+________________________ New Deployment __________________________
+
+2024/05/03 17:35:18 Setting up Redis client
+2024/05/03 17:35:18 Redis server ping response: PONG
+2024/05/03 17:35:18 Connected to Redis server
+2024/05/03 17:35:18 Connected to Redis server
+2024/05/03 17:37:11 Overall Best Fitness: 497.09327271429225
+2024/05/03 17:37:11 Executed in: 1.104128087s
+
+__________________ New Deployment ________________________________
+
+2024/05/03 18:20:40 Setting up Redis client
+2024/05/03 18:20:40 Redis server ping response: PONG
+2024/05/03 18:20:40 Connected to Redis server
+2024/05/03 18:20:40 Connected to Redis server
+2024/05/03 18:27:34 Overall Best Fitness: 497.4670203296378
+2024/05/03 18:27:34 Executed in: 188.343789ms
+
+_______________ New Deployment ___________________________________
+
+2024/05/03 19:06:26 Setting up Redis client
+2024/05/03 19:06:26 Redis server ping response: PONG
+2024/05/03 19:06:26 Connected to Redis server
+2024/05/03 19:06:26 Connected to Redis server
+2024/05/03 19:08:38 Overall Best Fitness: 497.3737192807808
+2024/05/03 19:08:38 Executed in: 316.200288ms
+2024/05/03 19:16:13 Overall Best Fitness: 496.3776738498987
+2024/05/03 19:16:13 Executed in: 1.181160792s
+2024/05/03 19:17:53 Overall Best Fitness: 496.8584125576959
+2024/05/03 19:17:53 Executed in: 894.330532ms
+2024/05/03 19:22:56 Overall Best Fitness: 497.48098898468686
+2024/05/03 19:22:56 Executed in: 1.976561736s
+2024/05/03 19:26:28 Overall Best Fitness: 497.4919936616347
+2024/05/03 19:26:28 Executed in: 195.027464ms
+2024/05/03 19:30:12 Overall Best Fitness: 497.2903754667231
+2024/05/03 19:30:12 Executed in: 1.903828502s
+2024/05/03 19:32:42 Overall Best Fitness: 497.589609291558
+2024/05/03 19:32:42 Executed in: 2.019401196s
+
+________________________ New Deployment ____________________________
+
+2024/05/03 19:50:28 Setting up Redis client
+2024/05/03 19:50:28 Redis server ping response: PONG
+2024/05/03 19:50:28 Connected to Redis server
+2024/05/03 19:50:28 Connected to Redis server
+2024/05/03 19:54:07 Overall Best Fitness: 497.1015719158389
+2024/05/03 19:54:07 Executed in: 394.647761ms
