@@ -83,7 +83,9 @@ func F2(x []float64) float64 {
 	for _, value := range x {
 		absValue := math.Abs(value)
 		sum += absValue
-		product *= absValue
+		if absValue != 0 {
+			product *= absValue
+		}
 	}
 	return sum + product
 }
