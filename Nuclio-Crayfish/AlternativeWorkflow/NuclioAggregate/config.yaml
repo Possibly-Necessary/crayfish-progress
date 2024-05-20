@@ -1,0 +1,18 @@
+apiVersion: nuclio.io/v1
+kind: NuclioFunction
+metadata:
+  name: nuc-aggregate
+  namespace: nuclio
+spec:
+  handler: "nuc-aggregate:AggregateHandler"
+  runtime: "golang"
+  build:
+    path: .
+  minReplicas: 1
+  triggers:
+    myRabbitMQTopic:
+      kind: "rabbit-mq"
+      url: "amqp://nuclio:crayfish@rabbitmq.default.svc.cluster.local:5672/"
+      attributes:
+        exchangeName: ""
+        queueName: resultQueue

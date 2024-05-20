@@ -1,0 +1,20 @@
+apiVersion: nuclio.io/v1
+kind: NuclioFunction
+metadata:
+  name: handler-func-edit
+  namespace: nuclio
+spec:
+  handler: "handler-func-edit:NuclioHandler"
+  runtime: "golang"
+  build:
+    path: . 
+  minReplicas: 5
+  maxReplicas: 5
+  triggers:
+    myRabbitMQTopic:
+      kind: "rabbit-mq"
+      url: "amqp://nuclio:crayfish@rabbitmq.default.svc.cluster.local:5672/"
+      attributes:
+        exchangeName: ""
+        queueName: subPopQueue
+        #maxWorkers: 10 # Updated from 1
